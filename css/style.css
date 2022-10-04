@@ -1,0 +1,124 @@
+@import 'mobile.css';
+@import 'desktop.css';
+@import 'animation.css';
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@200;500&display=swap');
+
+/* ROOT */
+:root {
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Dark-cyan-hover: hsl(158, 36%, 26%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: left;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+img {
+    max-width: 100%;    
+}
+
+h4,
+p {           
+    line-height: 1.8;
+    color: var(--Very-dark-blue);
+}
+
+.perfume {
+    color: var(--Dark-grayish-blue);
+    letter-spacing: 8px;    
+}
+
+h2 {
+    font-size: xx-large;    
+    font-weight: 900;   
+    font-family: 'Fraunces', serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: xx-large;
+    color: var(--Dark-cyan);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.offer {
+    text-decoration: line-through;
+    color: var(--Dark-grayish-blue);
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: var(--Dark-cyan);
+    color: white;    
+}
+button:hover {
+    background-color: var(--Dark-cyan-hover);
+    color: rgb(223, 217, 217)
+}
+h3{
+    padding-left: 1rem;
+}
+
+.box-card {
+    display: flex;
+    padding: 8rem 10%;
+    margin: 60px 60px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--Cream);
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card-product {
+    background-color: var(--white);
+    border-radius: 1.5rem;
+}
+
+.footerr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0rem 0.5rem 0rem;
+}
+.footerr a{
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+.redes{
+    display: flex;
+    align-items: center;    
+    justify-content:space-around;
+    padding: 1rem 0rem 4.5rem 0rem;
+}
+
+i {
+    color: var(--Dark-cyan);
+    font-size: 1.5rem;
+}
+
